@@ -17,6 +17,12 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
     },
+    {
+      path: "/heymeta",
+      name: "heymeta",
+      // route level code-splitting
+      component: () => import("../views/HeymetaView.vue"),
+    },
   ],
 });
 
