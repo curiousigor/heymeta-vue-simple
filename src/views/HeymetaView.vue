@@ -1,8 +1,8 @@
 <template>
   <div class="heymeta">
     <form action="" method="post">
-
       <p class="website">Website URL:</p>
+      <input type="url" name="url" id="url">
     </form>
   </div>
 </template>
